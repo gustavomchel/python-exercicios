@@ -1,0 +1,10 @@
+nome = input("Informe seu nome: ")
+matéria = input("Informe a matéria: ")
+nota1 = int(input("Insira a nota 1 da disciplina: "))
+peso1 = int(input("Informe o peso da nota 1: "))
+nota2 = int(input("Insira a nota 2 da disciplina: "))
+peso2 = int(input("Informe o peso da nota 2: "))
+nota3 = int(input("Insira a nota 3 da disciplina: "))
+peso3 = int(input("Informe o peso da nota 3: "))
+
+print(f"O aluno {nome} ficou com a média final: {((nota1*peso1)+(nota2*peso2)+(nota3*peso3))/(peso1+peso2+peso3)}")
